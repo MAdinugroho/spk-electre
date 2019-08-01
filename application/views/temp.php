@@ -236,57 +236,11 @@
 				}
 			});
 
-			// $('#hitungbase2').DataTable({
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
-			// $('#hitungbase3').DataTable({
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
 			$("table[id^='table']").DataTable({
 				"scrollX": true,
 				"ordering": false,
 				"paging": false
 			});
-
-			// $('#disordance').DataTable({
-			// 	"scrollX": true,
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
-			// $('#matriksc').DataTable({
-			// 	"scrollX": true,
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
-			// $('#matriksd').DataTable({
-			// 	"scrollX": true,
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
-			// $('#matriksdomc').DataTable({
-			// 	"scrollX": true,
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
-			// $('#matriksdomd').DataTable({
-			// 	"scrollX": true,
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
-
-			// $('#agregate').DataTable({
-			// 	"scrollX": true,
-			// 	"ordering": false,
-			// 	"paging": false
-			// });
 
 			$('#rank').DataTable({
 				"order": [
