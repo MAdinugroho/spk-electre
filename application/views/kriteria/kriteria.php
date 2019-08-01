@@ -14,7 +14,7 @@
 						<br>
 						<br>
 						<h1>Kriteria</h1>
-						
+
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Tambah Kriteria</button>
 						<br>
 					</div>
@@ -40,14 +40,14 @@
 								<tbody>
 									<?php $i = 1;
 									foreach ($kriteria as $item) : ?>
-										<tr>
+										<tr id="<?php echo $item->kode_kriteria; ?>">
 											<td><?php echo $i; ?></td>
 											<td><?php echo $item->kode_kriteria; ?></td>
 											<td><?php echo $item->nama_kriteria; ?></td>
 											<td><?php echo $item->bobot; ?></td>
 											<td><a class="btn btn btn-info" href="<?php echo base_url('updateKriteria/' . $item->kode_kriteria); ?>">Ubah</a>
 												<a class="btn btn btn-danger" href="<?php echo base_url('deleteKriteria/' . $item->kode_kriteria); ?>">Hapus</a>
-												<button type="submit" class="btn btn-danger remove"> Delete</button>
+												<a class="btn btn btn-danger deletea" href="<?php echo base_url('deleteKriteria/' . $item->kode_kriteria); ?>">Hapus</a>
 											</td>
 										</tr>
 										<?php $i++;

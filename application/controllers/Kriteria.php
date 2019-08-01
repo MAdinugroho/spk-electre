@@ -65,6 +65,6 @@ class Kriteria extends CI_Controller
   public function deleteKriteria($id)
   {
     $this->kriteria_model->deleteKriteria($id);
-    notify('Berhasil Menghapus Kriteria', 'success', 'kriteria/listKriteria');
+    notify('Berhasil Menghapus Kriteria', 'success', 'kriteria');
   }
 }

@@ -27,8 +27,10 @@
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/atlantis/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/atlantis/assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="https://lipis.github.io/bootstrap-sweetalert/dist/sweetalert.css" />
 	<!-- SweetAlert -->
-	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+	<script src="https://lipis.github.io/bootstrap-sweetalert/dist/sweetalert.js"></script>
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link rel="stylesheet" href=".<?= base_url('assets'); ?>/atlantis/assets/css/demo.css">
@@ -186,7 +188,7 @@
 	<script src="<?= base_url('assets'); ?>/atlantis/assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
 
 	<!-- Sweet Alert -->
-	<script src="<?= base_url('assets'); ?>/atlantis/assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+	<!-- <script src="<?= base_url('assets'); ?>/atlantis/assets/js/plugin/sweetalert/sweetalert.min.js"></script> -->
 
 	<!-- Atlantis JS -->
 	<script src="<?= base_url('assets'); ?>/atlantis/assets/js/atlantis.min.js"></script>
@@ -300,61 +302,33 @@
 		});
 	</script>
 
-	<script>
-		//== Class definition
-		var SweetAlert2Demo = function() {
+<script type="text/javascript">
+$('.deletea').on("click", function(e) {
+  e.preventDefault();
+  var url = $(this).attr('href');
+  swal({
+      title: "Hapus Data Kriteria?",
+      text: "Data Yang Sudah Dihapus Tidak Dapat Dikembalikan",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: '#DD6B55',
+      confirmButtonText: 'Hapus!',
+      cancelButtonText: "Batal!",
+      confirmButtonClass: "btn-danger",
+      closeOnConfirm: false,
+      closeOnCancel: false
+    },
+    function(isConfirm) {
+      if (isConfirm) {
+        window.location.replace(url);
+      } else {
+        swal("Data Gagal Dihapus", "", "error");
+      }
+    });
+});
+    
+</script>
 
-			//== Demos
-			var initDemos = function() {
-
-				$("del[id^='del']").click(function(e) {
-					swal({
-						title: 'Are you sure?',
-						text: "You won't be able to revert this!",
-						type: 'warning',
-						buttons: {
-							confirm: {
-								text: 'Yes, delete it!',
-								className: 'btn btn-success'
-							},
-							cancel: {
-								visible: true,
-								className: 'btn btn-danger'
-							}
-						}
-					}).then((Delete) => {
-						if (Delete) {
-							swal({
-								title: 'Deleted!',
-								text: 'Your file has been deleted.',
-								type: 'success',
-								buttons: {
-									confirm: {
-										className: 'btn btn-success'
-									}
-								}
-							});
-						} else {
-							swal.close();
-						}
-					});
-				});
-
-			};
-
-			return {
-				//== Init
-				init: function() {
-					initDemos();
-				},
-			};
-		}();
-
-		//== Class Initialization
-		jQuery(document).ready(function() {
-			SweetAlert2Demo.init();
-		});
-	</script>
 </body>
 
 </html>
