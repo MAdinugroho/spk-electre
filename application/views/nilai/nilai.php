@@ -84,9 +84,6 @@
 							<div class="row">
 								<div class="col-5 col-md-4">
 									<div class="nav flex-column nav-pills nav-secondary nav-no-bd" id="v-pills-tab-without-border" role="tablist" aria-orientation="vertical">
-										<!-- <a class="nav-link active" id="v-pills-home-tab-nobd" data-toggle="pill" href="#v-<?php echo $row->kode_kriteria ?>" role="tab" aria-controls="v-pills-home-nobd" aria-selected="true"><?php echo $row->kode_kriteria ?> <?php echo $row->nama_kriteria ?></a>
-										<a class="nav-link" id="v-pills-profile-tab-nobd" data-toggle="pill" href="#v-pills-profile-nobd" role="tab" aria-controls="v-pills-profile-nobd" aria-selected="false">Profile</a>
-										<a class="nav-link" id="v-pills-messages-tab-nobd" data-toggle="pill" href="#v-pills-messages-nobd" role="tab" aria-controls="v-pills-messages-nobd" aria-selected="false">Messages</a> -->
 										<?php
 										foreach ($kriteria as $row) : ?>
 											<a class="nav-link " id="v-pills-home-tab-nobd" data-toggle="pill" href="#v-<?php echo $row->kode_kriteria ?>" role="tab" aria-controls="v-pills-home-nobd" aria-selected="true"><?php echo $row->kode_kriteria ?> <?php echo $row->nama_kriteria ?></a>
