@@ -44,7 +44,7 @@
 </head>
 
 <body>
-  <a href="#one" id="myBtn" title="Go to top">Up</a>
+  <a href="#one" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up my-float"></i></a>
   <header id="one" class="header-global">
     <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--unpinned">
       <div class="container">

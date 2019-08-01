@@ -27,6 +27,7 @@
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/atlantis/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/atlantis/assets/css/atlantis.min.css">
+	<link rel="stylesheet" href="<?= base_url('assets'); ?>/adistyle.css">
 	<link rel="stylesheet" href="https://lipis.github.io/bootstrap-sweetalert/dist/sweetalert.css" />
 	<!-- SweetAlert -->
 	<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->

@@ -14,7 +14,7 @@
 						<br>
 						<br>
 						<h1>Nilai</h1>
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Detail Kriteria</button>
+						<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Detail Kriteria</button> -->
 					</div>
 					<div class="card-body">
 						<div class="table-responsive">
@@ -135,4 +135,11 @@
 			</div>
 		</div>
 	</div>
+<a href="#" class="float" data-toggle="modal" data-target="#myModal">
+<i class="fa fa-info my-float"></i>
+</a>
+<div class="label-container">
+<div class="label-text">Detail Kriteria</div>
+<i class="fa fa-play label-arrow"></i>
+</div>
 </div>
