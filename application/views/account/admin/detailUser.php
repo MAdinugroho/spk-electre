@@ -8,7 +8,6 @@
           <a href="<?php echo base_url('updateUser/' . $user->id); ?>" class="btn btn-lg btn-white btn-round">Edit Profile</a>
         </div>
         <div class="ml-md-auto py-2 py-md-0">
-          
         </div>
       </div>
     </div>
