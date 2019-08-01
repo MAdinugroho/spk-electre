@@ -109,22 +109,16 @@
 								</ul>
 							</div>
 						</li>
-						<li class="nav-item <?php if($view_name=='nilai'){echo 'active';}?>">
-							<a  href="<?= base_url('user'); ?>">
+						<li class="nav-item <?php if($view_name=='hitung/nilaiahir'){echo 'active';}?>">
+							<a  href="<?= base_url('nilaiAhir'); ?>">
 								<i class="fas fa-list-ol"></i>
 								<p>Nilai Ahir</p>
 							</a>
 						</li>
-						<li class="nav-item <?php if($view_name=='nilai'){echo 'active';}?>">
-							<a  href="<?= base_url('admin'); ?>">
+						<li class="nav-item <?php if($view_name=='account/map'){echo 'active';}?>">
+							<a  href="<?= base_url('map'); ?>">
 								<i class="fas fa-map"></i>
 								<p>Peta</p>
-							</a>
-						</li>
-						<li class="nav-item <?php if($view_name=='nilai'){echo 'active';}?>">
-							<a  href="<?= base_url('admin'); ?>">
-								<i class="fas fa-user-tie"></i>
-								<p>About</p>
 							</a>
 						</li>
 					</ul>
