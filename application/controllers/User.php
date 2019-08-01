@@ -13,9 +13,11 @@ class User extends CI_Controller
         $this->load->model('hitung_model');
         $this->load->helper('electre_class');
 
-        if ($this->session->userdata['level'] != 'user') {
+        if (!$this->session->userdata['login']) {
+            redirect(base_url('login'));
+          }elseif ($this->session->userdata['level'] != 'user') {
             redirect(base_url('notifError'));
-        }
+          }
     }
 
 

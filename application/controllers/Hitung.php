@@ -8,7 +8,11 @@ class Hitung extends CI_Controller
         parent::__construct();
         $this->load->model('hitung_model');
         $this->load->helper('electre_class');
+        if (!$this->session->userdata['login']) {
+            redirect(base_url('login'));
+          }
     }
+    
 
     public function hitung()
     {
