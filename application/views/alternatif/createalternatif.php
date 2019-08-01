@@ -33,7 +33,6 @@
 							foreach ($form as $row) : ?>
 									<label class="col-sm-2 col-form-label"><?= $row->nama_kriteria ?></label>
 									<div class="col-sm-2">
-										<!-- <input type="text" class="form-control form-control-round" placeholder="Masukan Nilai" name="ID-<?= $row->kode_kriteria ?>" value=""> -->
 										<select class="form-control form-control" placeholder="Masukan Nilai" name="ID-<?= $row->kode_kriteria ?>">
 										<?php  foreach($parameter as $item): if($item->kode_kriteria != $row->kode_kriteria){continue;} ?>
 										<option value="<?php echo $item->nilai_parameter; ?>"><?php echo $item->nama_parameter;?></option>
