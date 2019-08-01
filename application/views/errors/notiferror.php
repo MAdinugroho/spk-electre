@@ -14,8 +14,6 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="<?= base_url('assets'); ?>/colorliberror/css/style.css" />
-
-
 </head>
 
 <body>

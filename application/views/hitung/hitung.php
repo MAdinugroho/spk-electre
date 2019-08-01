@@ -12,7 +12,7 @@
 		<div class="row mt--2">
 			<div class="col-12">
 				<div class="card mx-auto" id="tb1">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Nilai</h1>
 					<br><br><br>
@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="card" id="tb2">
-					<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: cover;background-repeat: no-repeat; ">
+					<div class="card-header">
 					<br>
 					<h1>Perhitungan Normalisasi</h1>
 						<br>
@@ -102,7 +102,7 @@
 				</div>
 
 				<div class="card" id="tb3">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Pembobotan</h1>
 						<br>
@@ -147,7 +147,7 @@
 				</div>
 
 				<div class="card" id="tb4">
-					<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+					<div class="card-header">
 					<br>
 					<h1>Concordance</h1>
 						<br>
@@ -192,7 +192,7 @@
 				</div>
 
 				<div class="card" id="tb5">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Disordance</h1>
 						<br>
@@ -237,7 +237,7 @@
 				</div>
 
 				<div class="card" id="tb6">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Matriks C</h1>
 						<br>
@@ -282,7 +282,7 @@
 				</div>
 
 				<div class="card" id="tb7">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Matriks D</h1>
 						<br>
@@ -327,7 +327,7 @@
 				</div>
 
 				<div class="card" id="tb8">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Matriks Dominan C</h1>
 						<br>
@@ -372,7 +372,7 @@
 				</div>
 
 				<div class="card" id="tb9">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Matriks Dominan D</h1>
 						<br>
@@ -417,7 +417,7 @@
 				</div>
 
 				<div class="card" id="tb10">
-				<div class="card-header" alt="Card image" style="width:100%; background-image: url(<?= base_url('assets'); ?>/img/3.png); background-size: Cover;background-repeat: no-repeat; ">
+				<div class="card-header">
 					<br>
 					<h1>Agregat Matriks E</h1>
 						<br>
@@ -467,80 +467,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-
-
-
-<div class="modal fade" id="myModal">
-	<div class="modal-dialog">
-		<div class="modal-content">
-
-			<!-- Modal Header -->
-			<div class="modal-header">
-				<h4 class="modal-title">Modal Heading</h4>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-
-			<!-- Modal body -->
-			<div class="modal-body">
-				Modal body..111
-			</div>
-
-			<!-- Modal footer -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-			</div>
-
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="myModa2">
-	<div class="modal-dialog">
-		<div class="modal-content">
-
-			<!-- Modal Header -->
-			<div class="modal-header">
-				<h4 class="modal-title">Modal Heading</h4>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-
-			<!-- Modal body -->
-			<div class="modal-body">
-				Modal body..222
-			</div>
-
-			<!-- Modal footer -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-			</div>
-
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="myModa3">
-	<div class="modal-dialog">
-		<div class="modal-content">
-
-			<!-- Modal Header -->
-			<div class="modal-header">
-				<h4 class="modal-title">Modal Heading</h4>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-
-			<!-- Modal body -->
-			<div class="modal-body">
-				Modal body..333
-			</div>
-
-			<!-- Modal footer -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-			</div>
-
 		</div>
 	</div>
 </div>
