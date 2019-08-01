@@ -97,9 +97,13 @@
 									
 								<div class="tab-content" id="v-pills-without-border-tabContent">
 										
-									<?php foreach ($parameter as $item) :  ?>
-											<div class="tab-pane fade show" id="v-<?php echo $item->kode_kriteria ?>" role="tabpanel" aria-labelledby="v-pills-home-tab">
-												<input type="text" class="form-control form-control-round"  value="<?php echo $item->nama_parameter; ?> Nilai &nbsp <?php echo $item->nilai_parameter; ?>" disabled>
+									<?php foreach ($kriteria as $row) :?>
+											<div class="tab-pane fade show" id="v-<?php echo $row->kode_kriteria ?>" role="tabpanel" aria-labelledby="v-pills-home-tab">
+											<?php foreach ($parameter as $item) :  if ($item->kode_kriteria != $row->kode_kriteria) {
+											continue;
+										} ?>
+												<input type="text" class="form-control form-control-round"  value="<?php echo $item->nama_parameter; ?> Nilai &nbsp <?php echo $item->nilai_parameter; ?>" disabled><br>
+												<?php endforeach; ?>
 										</div>
 									<?php endforeach; ?>
 								</div>
