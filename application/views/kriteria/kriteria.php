@@ -46,7 +46,7 @@
 											<td><?php echo $item->nama_kriteria; ?></td>
 											<td><?php echo $item->bobot; ?></td>
 											<td><a class="btn btn btn-info" href="<?php echo base_url('updateKriteria/' . $item->kode_kriteria); ?>">Ubah</a>
-												<a class="btn btn btn-danger" href="<?php echo base_url('deleteKriteria/' . $item->kode_kriteria); ?>">Hapus</a>
+												<!-- <a class="btn btn btn-danger" href="<?php echo base_url('deleteKriteria/' . $item->kode_kriteria); ?>">Hapus</a> -->
 												<a class="btn btn btn-danger deletea" href="<?php echo base_url('deleteKriteria/' . $item->kode_kriteria); ?>">Hapus</a>
 											</td>
 										</tr>

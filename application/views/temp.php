@@ -262,7 +262,6 @@ $('.deletea').on("click", function(e) {
   var url = $(this).attr('href');
   swal({
       title: "Hapus Data Kriteria?",
-      text: "Data Yang Sudah Dihapus Tidak Dapat Dikembalikan",
       type: "warning",
       showCancelButton: true,
       confirmButtonColor: '#DD6B55',
