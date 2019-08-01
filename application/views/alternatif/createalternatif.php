@@ -35,7 +35,7 @@
 									<div class="col-sm-2">
 										<select class="form-control form-control" placeholder="Masukan Nilai" name="ID-<?= $row->kode_kriteria ?>">
 										<?php  foreach($parameter as $item): if($item->kode_kriteria != $row->kode_kriteria){continue;} ?>
-										<option value="<?php echo $item->nilai_parameter; ?>"><?php echo $item->nama_parameter;?></option>
+										<option value="<?php echo $item->nilai_parameter; ?>">(<?php echo $item->nilai_parameter;?>)&nbsp<?php echo $item->nama_parameter;?></option>
 										<?php endforeach;?>
 									</select>
 									</div>
