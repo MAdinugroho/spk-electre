@@ -18,7 +18,7 @@ class Kriteria extends CI_Controller
       if ($this->input->post('jumlahpara') == 0||$this->input->post('jumlahpara') == 1) {
         notify('Masukan Jumlah Parameter Lebih dari 1', 'Warning', 'kriteria/listKriteria');
       } elseif ($this->input->post('jumlahpara') > 5) {
-        notify('Maksimal Parameter 5 untuk Sistem ini', 'Warning', 'kriteria/listKriteria');
+        notify('Maksimal 5 Parameter untuk Sistem ini', 'Warning', 'kriteria/listKriteria');
       }else {
         redirect(base_url('createKriteria/' . $this->input->post('jumlahpara')));
       }
