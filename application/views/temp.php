@@ -304,6 +304,29 @@ $('.deletekec').on("click", function(e) {
     });
 });
 
+$('.deleteus').on("click", function(e) {
+  e.preventDefault();
+  var url = $(this).attr('href');
+  swal({
+      title: "Hapus Data User?",
+      type: "warning",
+      showCancelButton: true,
+      confirmButtonColor: '#DD6B55',
+      confirmButtonText: 'Hapus!',
+      cancelButtonText: "Batal!",
+      confirmButtonClass: "btn-danger",
+      closeOnConfirm: false,
+      closeOnCancel: false
+    },
+    function(isConfirm) {
+      if (isConfirm) {
+        window.location.replace(url);
+      } else {
+        swal("Data Gagal Dihapus", "", "error");
+      }
+    });
+});
+
     
 </script>
 

@@ -36,7 +36,9 @@
 											<td><?php echo $item->name; ?></td>
 											<td><?php echo $item->level; ?></td>
 											<td><a class="btn btn btn-primary" href="<?php echo base_url('detailUser/' . $item->id); ?>">Detail</a>
-												<a class="btn btn btn-danger" href="<?php echo base_url('deleteUser/' . $item->id); ?>">Hapus</a>
+												<!-- <a class="btn btn btn-danger" href="<?php echo base_url('deleteUser/' . $item->id); ?>">Hapus</a> -->
+												<a class="btn btn btn-danger deleteus" href="<?php echo base_url('deleteUser/' . $item->id); ?>">Hapus</a>
+											</td>
 											</td>
 										</tr>
 										<?php $i++;
