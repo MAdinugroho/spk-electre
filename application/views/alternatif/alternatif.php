@@ -37,7 +37,8 @@
 											<td><?php echo $item->kode_alternatif; ?></td>
 											<td><?php echo $item->nama_alternatif; ?></td>
 											<td><a class="btn btn btn-info" href="<?php echo base_url('updateAlternatif/' . $item->kode_alternatif); ?>">Ubah</a>
-												<a class="btn btn btn-danger" href="<?php echo base_url('deleteAlternatif/' . $item->kode_alternatif); ?>">Hapus</a>
+												<!-- <a class="btn btn btn-danger" href="<?php echo base_url('deleteAlternatif/' . $item->kode_alternatif); ?>">Hapus</a> -->
+												<a class="btn btn btn-danger deletekec" href="<?php echo base_url('deleteAlternatif/' . $item->kode_alternatif); ?>">Hapus</a>
 											</td>
 
 
