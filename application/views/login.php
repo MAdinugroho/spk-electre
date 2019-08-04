@@ -68,12 +68,18 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="row mt-3">
-                            <div class="col-12 text-right">
-                                <br><br>
-                                <!-- <a href="<?= base_url('registration'); ?>" class="text-light">
+                        <div class="row">
+                            <!-- <div class="col-12 text-right">
+                                <br>
+                                <a href="<?= base_url('registration'); ?>" class="text-light">
                                     <small>Create new account</small>
-                                </a> -->
+                                </a>
+                            </div> -->
+                            <div class="col-12 text-right">
+                                <br>
+                                <a href="<?= base_url('/'); ?>" class="text-light">
+                                    <small>Kembali Ke Halaman Utama</small>
+                                </a>
                             </div>
                         </div>
                     </div>
