@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>SPK Electre</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-	<link rel="icon" href="<?= base_url('assets'); ?>/atlantis/assets/img/icon.ico" type="image/x-icon" />
+	<link rel="icon" href="<?= base_url('assets'); ?>/img/favicon.png" type="image/x-icon" />
 
 	<!-- Fonts and icons -->
 	<script src="<?= base_url('assets'); ?>/atlantis/assets/js/plugin/webfont/webfont.min.js"></script>
