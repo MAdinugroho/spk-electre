@@ -123,21 +123,23 @@
               <i class="ni ni-settings text-primary"></i>
             </div>
             <h5 class="text-white mt-3">Normalisasi</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="text-white mt-3">Normalisasi matrik keputusan. Dalam prosedur ini, setiap atribut diubah menjadi nilai yang comparable. </p>
           </div>
           <div class="col-lg-4">
             <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
               <i class="ni ni-ruler-pencil text-primary"></i>
             </div>
             <h5 class="text-white mt-3">Pembobotan</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="text-white mt-3">Pembobotan pada matrik yang telah dinormalisasi
+Setelah dinormalisasi, setiap kolom dari matriks R dikalikan dengan bobot-bobot ( wi ) yang ditentukan oleh pembuat keputusan</p>
           </div>
           <div class="col-lg-4">
             <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
               <i class="fa fa-exchange text-primary"></i>
             </div>
-            <h5 class="text-white mt-3">Himpunan Corcondance & Disordance</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="text-white mt-3">Himpunan Corcondance & Discordance</h5>
+            <p class="text-white mt-3">Menetukan concordance dan discordance
+Untuk setiap pasang dari alternative</p>
           </div>
         </div>
         <div class="row row-grid mt-5">
@@ -145,22 +147,22 @@
             <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
               <i class="fa fa-th  text-primary"></i>
             </div>
-            <h5 class="text-white mt-3">Matriks Corcondance & Disordance</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="text-white mt-3">Matriks Corcondance & Discordance</h5>
+            <p class="text-white mt-3">Dengan menjumlahkan bobot bobot yang termasuk di setiap himpunan terpilih</p>
           </div>
           <div class="col-lg-4">
             <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
               <i class="fa fa-sort-numeric-asc text-primary"></i>
             </div>
             <h5 class="text-white mt-3">Matriks Dominan</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="text-white mt-3">Matrik dominan Concordance dan Discordance dapat dibangun dengan bantuan nilai threshold</p>
           </div>
           <div class="col-lg-4">
             <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
               <i class="ni ni-atom text-primary"></i>
             </div>
             <h5 class="text-white mt-3">Agregat</h5>
-            <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="text-white mt-3">Hasil Perkalian dari matriks Concordance dan Discordance</p>
           </div>
         </div>
       </div>
