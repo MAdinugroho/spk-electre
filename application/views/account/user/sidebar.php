@@ -48,13 +48,13 @@
 								</ul>
 							</div>
 						</li>
-						<li class="nav-item <?php if($view_name=='hitung'){echo 'active';}?>">
+						<li class="nav-item <?php if($view_name=='hitung/hitung'){echo 'active';}?>">
 							<a  href="<?= base_url('hitung'); ?>">
 								<i class="fas fa-layer-group"></i>
 								<p>Perhitungan</p>
 								<span class="caret"></span>
 							</a>
-							<div class="collapse<?php if($view_name=='hitung'){echo'.show';}?>" id="perhitungan">
+							<div class="collapse<?php if($view_name=='hitung/hitung'){echo'.show';}?>" id="perhitungan">
 								<ul class="nav nav-collapse">
 									<li>
 										<a onclick="ShowDiv(1)">
