@@ -6,7 +6,7 @@
 					<h2 class="text-white pb-2 fw-bold">Dashboard</h2>
 				</div>
 				<div class="ml-md-auto py-2 py-md-0">
-					<a href="#" class="btn btn-secondary btn-round">Tambah User</a>
+					<a href="<?= base_url('createUser');?>" class="btn btn-secondary btn-round">Tambah User</a>
 				</div>
 			</div>
 		</div>
@@ -19,7 +19,7 @@
 						<div class="row align-items-center">
 							<div class="col-icon">
 								<div class="icon-big text-center icon-primary bubble-shadow-small">
-									<i class="flaticon-users"></i>
+									<i class="fa fa-users"></i>
 								</div>
 							</div>
 							<div class="col col-stats ml-3 ml-sm-0">
@@ -38,7 +38,7 @@
 						<div class="row align-items-center">
 							<div class="col-icon">
 								<div class="icon-big text-center icon-info bubble-shadow-small">
-									<i class="flaticon-interface-6"></i>
+									<i class="fa fa-tasks"></i>
 								</div>
 							</div>
 							<div class="col col-stats ml-3 ml-sm-0">
@@ -57,7 +57,7 @@
 						<div class="row align-items-center">
 							<div class="col-icon">
 								<div class="icon-big text-center icon-success bubble-shadow-small">
-									<i class="flaticon-graph"></i>
+									<i class="fa fa-book"></i>
 								</div>
 							</div>
 							<div class="col col-stats ml-3 ml-sm-0">
@@ -76,7 +76,7 @@
 						<div class="row align-items-center">
 							<div class="col-icon">
 								<div class="icon-big text-center icon-secondary bubble-shadow-small">
-									<i class="flaticon-success"></i>
+									<i class="fa fa-user"></i>
 								</div>
 							</div>
 							<div class="col col-stats ml-3 ml-sm-0">

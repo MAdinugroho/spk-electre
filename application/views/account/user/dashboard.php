@@ -16,7 +16,7 @@
                         <div class="row align-items-center">
                             <div class="col-icon">
                                 <div class="icon-big text-center icon-info bubble-shadow-small">
-                                    <i class="flaticon-interface-6"></i>
+                                    <i class="fa fa-tasks"></i>
                                 </div>
                             </div>
                             <div class="col col-stats ml-3 ml-sm-0">
@@ -35,7 +35,7 @@
                         <div class="row align-items-center">
                             <div class="col-icon">
                                 <div class="icon-big text-center icon-success bubble-shadow-small">
-                                    <i class="flaticon-graph"></i>
+                                    <i class="fa fa-book"></i>
                                 </div>
                             </div>
                             <div class="col col-stats ml-3 ml-sm-0">
@@ -79,7 +79,7 @@
                 <div class="card full-height">
                     <div class="card-body">
                         <div class="card-title">Peta Klasifikasi Pemalang</div>
-                        <iframe width="100%" height="520" frameborder="0" src="https://madinugroho.carto.com/builder/561d4213-c490-46c5-826a-cd6cf4025bc0/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                        <iframe width="100%" height="520" frameborder="0" src="https://madinugroho.carto.com/builder/b689b8e7-1726-4e39-82c7-9f4c8ca9344e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
                     </div>
                 </div>
             </div>
