@@ -42,7 +42,7 @@ class Hitung extends CI_Controller
         $data['olah'] = $this->hitung_model->getdata();
         $data['electre'] = new Electre($data['olah'], $bobot);
         $data['rank'] = $this->get_rank($data['electre']->total);
-        //var_dump($data['electre']->t_discordance);die;
+        //var_dump($data['olah']);die;
         $data['view_name'] = "hitung/hitung";
         $this->load->view('temp', $data);
         }else{
