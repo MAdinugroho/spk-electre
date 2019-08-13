@@ -15,10 +15,15 @@ class Kriteria extends CI_Controller
   public function listKriteria()
   {
     if ($this->input->post('createkriteria')) {
-      if ($this->input->post('jumlahpara') == 0||$this->input->post('jumlahpara') == 1) {
-        notify('Masukan Jumlah Parameter Lebih dari 1', 'Warning', 'kriteria/listKriteria');
+      $jumlahpara = $this->input->post('jumlahpara');
+      // var_dump(is_numeric($jumlahpara));die;
+      if (!is_numeric($jumlahpara)) {
+        notify('Masukan Angka Valid', 'Warning', 'kriteria/listKriteria');
       } elseif ($this->input->post('jumlahpara') > 5) {
         notify('Maksimal 5 Parameter untuk Sistem ini', 'Warning', 'kriteria/listKriteria');
+      }
+      elseif ($this->input->post('jumlahpara') == 0||$this->input->post('jumlahpara') == 1) {
+        notify('Masukan Jumlah Parameter Lebih dari 1', 'Warning', 'kriteria/listKriteria');
       }else {
         redirect(base_url('createKriteria/' . $this->input->post('jumlahpara')));
       }
@@ -33,8 +38,12 @@ class Kriteria extends CI_Controller
   public function createKriteria($id)
   {
     if ($this->input->post('tambahkriteria')) {
-      $this->kriteria_model->createkriteria($id);
-      notify('Berhasil Menambah Kriteria', 'success', 'kriteria');
+      if (!is_numeric($this->input->post('bobot'))) {
+        notify('Gagal Memasukan Data, Bobot Harus Angka', 'error', 'kriteria/listKriteria');
+      } else {
+        $this->kriteria_model->createkriteria($id);
+        notify('Berhasil Menambah Kriteria', 'success', 'kriteria');
+      }
     } elseif ($this->input->post('back')) {
       redirect(base_url('kriteria'));
     } else {
@@ -48,8 +57,12 @@ class Kriteria extends CI_Controller
   public function updateKriteria($id)
   {
     if ($this->input->post('updatekriteria')) {
-      $this->kriteria_model->updatekriteria($id);
-      notify('Berhasil Mengubah Kriteria', 'success', 'kriteria');
+      if (!is_numeric($this->input->post('bobot'))) {
+        notify('Gagal Mengubah Data, Bobot Harus Angka', 'error', 'kriteria/listKriteria');
+      } else {
+        $this->kriteria_model->updatekriteria($id);
+        notify('Berhasil Mengubah Kriteria', 'success', 'kriteria');
+      }
     } elseif ($this->input->post('back')) {
       redirect(base_url('kriteria'));
     } else {
