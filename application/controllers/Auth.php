@@ -88,7 +88,7 @@ class Auth extends CI_Controller
     public function logout()
     {
         $this->session->sess_destroy();
-        notify('Berhasil Keluar, Silakan Login Kembali', 'info', '/');
+        notify('Berhasil Keluar, Silakan Login Kembali', 'warning', '/');
     }
 
     public function profile()
