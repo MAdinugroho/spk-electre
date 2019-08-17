@@ -20,7 +20,7 @@
               <h1 class="display-3  text-white">Sistem Pendukung Keputusan
                   <span>Penentuan Lahan Kritis</span>
                 </h1>
-                <p class="lead  text-white">Dirancang Untuk Menentukan Pemetaan Lahan Kritis Disuatu Daerah</p>
+                <p class="lead  text-white">Dirancang Untuk Menentukan Pemetaan Lahan Kritis Di Daerah Pemalang</p>
               </div>
               <div class="col-lg-6 text-center">
               <img src="<?= base_url('assets'); ?>/img/3d.png" class="img-fluid" alt="Responsive image">
