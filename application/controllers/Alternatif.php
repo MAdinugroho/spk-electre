@@ -8,7 +8,8 @@ class Alternatif extends CI_Controller
     parent::__construct();
     $this->load->model('alternatif_model');
     if (!$this->session->userdata['login']) {
-      redirect(base_url('login'));
+      // redirect(base_url('login'));
+      notify('Session Anda Sudah Habis, Silakan Login Ulang', 'Warning', 'login');
     }
   }
 

@@ -9,7 +9,8 @@ class Nilai extends CI_Controller
     $this->load->model('nilai_model');
     $this->load->model('alternatif_model');
     if (!$this->session->userdata['login']) {
-      redirect(base_url('login'));
+      // redirect(base_url('login'));
+      notify('Session Anda Sudah Habis, Silakan Login Ulang', 'Warning', 'login');
     }
   }
 

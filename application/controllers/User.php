@@ -14,7 +14,8 @@ class User extends CI_Controller
         $this->load->helper('electre_class');
 
         if (!$this->session->userdata['login']) {
-            redirect(base_url('login'));
+            // redirect(base_url('login'));
+            notify('Session Anda Sudah Habis, Silakan Login Ulang', 'Warning', 'login');
           }elseif ($this->session->userdata['level'] != 'user') {
             redirect(base_url('notifError'));
           }
