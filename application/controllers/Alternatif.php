@@ -17,6 +17,7 @@ class Alternatif extends CI_Controller
   public function listAlternatif()
   {
     $data['alternatif'] = $this->alternatif_model->Alternatif();
+    var_dump($data['alternatif']);die;
     $data['view_name'] = "alternatif/alternatif";
     $data['message'] = $this->session->flashdata('msg');
     $this->load->view('temp', $data);
