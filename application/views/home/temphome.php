@@ -107,7 +107,9 @@
                   </a>
                 </div>
               </div>
-            </li>
+						</li>
+						<a href="<?= base_url('login'); ?>" class="nav-link" role="button">Login
+              </a>
           </ul>
           <ul class="navbar-nav align-items-lg-center ml-lg-auto">
             <li class="nav-item d-none d-lg-block ml-lg-4">

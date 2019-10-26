@@ -69,12 +69,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            <!-- <div class="col-12 text-right">
+                            <div class="col-12 text-right">
                                 <br>
                                 <a href="<?= base_url('registration'); ?>" class="text-light">
                                     <small>Create new account</small>
                                 </a>
-                            </div> -->
+                            </div>
                             <div class="col-12 text-right">
                                 <br>
                                 <a href="<?= base_url('/'); ?>" class="text-light">
