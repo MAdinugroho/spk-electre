@@ -82,7 +82,7 @@ class Admin extends CI_Controller
 
     public function detailUser($id)
     {
-        $data['view_name'] = "account/admin/detailuser";
+        $data['view_name'] = "account/admin/detailUser";
         $data['user'] = $this->account_model->getUser($id);
         $data['dtluser'] = $this->account_model->getDetail($id);
         // var_dump($this->account_model->getDetail($id));
